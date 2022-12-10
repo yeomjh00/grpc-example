@@ -1,5 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(clean, Some(5cbf49a3-b9b1-4357-823e-8d62106ead57), Some(CommandSource(console0)))[0m
-[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: clean[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
-[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed 2022. 12. 10 오후 1:24:06[0m
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

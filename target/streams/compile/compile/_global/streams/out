@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\duawo\OneDrive\바탕 화면\grpc-example\src\main\scala\Main.scala:58:22: not found: value fileNum[0m
+[0m[[0m[31merror[0m] [0m[0m    for(i <- 0 until fileNum){[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\duawo\OneDrive\바탕 화면\grpc-example\src\main\scala\Main.scala:59:28: not found: value fileName[0m
+[0m[[0m[31merror[0m] [0m[0m      val filePath = s"./${fileName}.${i}"[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\duawo\OneDrive\바탕 화면\grpc-example\src\main\scala\Main.scala:82:19: not found: value fileName[0m
+[0m[[0m[31merror[0m] [0m[0m      println(f"${fileName}.${i} order is ${order}")[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

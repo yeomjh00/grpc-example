@@ -6,6 +6,10 @@ object Main {
   def main(args: Array[String]): Unit = {
     val fileName = args.head.toString
     val fileNum = args.tail.head.toInt
+    checkSingleFile(fileName, fileNum)
+  }
+
+  def checkMultiFile(fileName : String, fileNum : Int):Unit = {
     var veryFirstLine : String = ""
     var veryLastLine : String =""
     var boundaryList : ListBuffer[String] = ListBuffer()
@@ -49,5 +53,26 @@ object Main {
     }
     println(f"all order is ${order}")
     println(f"first line is <${veryFirstLine}> last line is <${veryLastLine}>")
+  }
+
+  //fileName.fileNum
+  def checkSingleFile(fileName : String, fileNum : Int) : Unit= {
+
+    val filePath = s"./${fileName}.${fileNum}"
+    val keyList = Source.fromFile(filePath).getLines().map(_.splitAt(10)._1).toList
+    val first = keyList.head
+    val remain = keyList.tail
+    // println(f"first line is ${first} last line is ${remain.last}")
+    var order = true
+    var prev = first
+    for(line <- remain){
+      if(prev > line){
+        order = false
+        // println(f"${prev} > ${line}")
+      }
+      prev = line
+    }
+    println(f"${fileName}.${fileNum} order is ${order}")
+
   }
 }
