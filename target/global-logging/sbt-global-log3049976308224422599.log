@@ -1,0 +1,5 @@
+[debug] > Exec(run result 3, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Total time: 0 s, completed 2022. 12. 10. 오후 12:29:20
+[debug] > Exec(idea-shell, None, None)
